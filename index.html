@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>docbot</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="navbar-wrapper">
+		<div class="container">
+			<nav class="navbar navbar-light navbar-static-top">
+				<div class="container" style="background-color: #e3f2fd; opacity: 0.7;">
+					<div class="navbar-header">
+					 	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					 		<span class="sr-only">Toggle navigation</span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+					 	</button>
+					 	<a class="navbar-brand" href="#"><span class="strong">Docbot</span></a>
+					</div>
+					<div class="collapse navbar-collapse" id="navbar">
+						<form class="navbar-form navbar-right">
+							<div class="form-group">
+		 						<input type="text" class="form-control" placeholder="Email">
+							</div>
+							<button type="submit" class="btn btn-success">Subscribe!</button>
+						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li role="separator" class="divider"></li>
+					 		<li><a href="#about_section">About</a></li>
+					 		<li><a href="#mission_section">Mission</a></li>
+					 		<li><a href="#team_section">Team</a></li>
+					 	</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<div id="startchange"></div>
+
+	<!-- Carousel -->
+
+	<div id="myCarousel" class="carousel slide" data-interval="7000" data-ride="carousel">
+      <!-- Indicators -->
+      	<ol class="carousel-indicators">
+	        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	        <li data-target="#myCarousel" data-slide-to="1"></li>
+	        <li data-target="#myCarousel" data-slide-to="2"></li>
+      	</ol>
+	      <div class="carousel-inner" role="listbox">
+	        <div class="item active">
+	          	<img class="first-slide" src="./images/chat2.gif" id="botchatimg" alt="docbot texting">
+		          <div class="container">
+			            <div class="carousel-caption">
+				            <h1>24/7 medical advice.</h1>
+				            <p>Anytime. Anywhere. Docbot is just a text away.</p>
+			            </div>
+		          </div>
+	        </div>
+	        <div class="item">
+	          	<img class="second-slide" src="./images/doctext2.jpeg" alt="doctor texting">
+		          <div class="container">
+		            <div class="carousel-caption">
+			              <h1>Backed by real medical professionals.</h1>
+			              <p style="color:white; text-shadow: 1px 1px black;">Docbot is built by our medical team consisting of medical doctors and pharmacists with years of exprience in patient care.</p>
+		            </div>
+		          </div>
+	        </div>
+	        <div class="item">
+	          	<img class="third-slide" src="./images/living.jpg" alt="living life">
+		          <div class="container">
+			            <div class="carousel-caption">
+			              	<h1>Take back your day.</h1>
+			              	<p style="color: white; text-shadow: 1px 1px black;">With Docbot you can say goodbye to spending your day at the doctor's office for minor medical issues.</p>
+			            </div>
+			          </div>
+		        </div>
+	      </div>
+    </div>
+
+    <div class="container">
+      <div class="row featurette" id="about_section">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Docbot is an artifically intellegent doctor. <span class="text-muted">Built by medical professionals.</span></h2>
+          <p class="lead">Simply text Docbot your symptoms, answer a few clinical questions, and Docbot will provide you with a diagnose. Docbot can determine whether over-the-counter medications are appropriate for your treatment or if necessary, Docbot can connect you to a board certified physician.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="./images/livechat.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider" id="mission_section">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">We are on a mission <span class="text-muted">to open up healthcare access globally.</span></h2>
+          <p class="lead">We believe in healthcare equality for humanity. No matter where you are in the world or what language you speak, we are committed to building technologies that will provide you with instant access great medical care.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="./images/chatbotplatforms.png" alt="chatbot platforms">
+        </div>
+      </div>
+     </div>
+
+    <hr class="featurette-divider" id="team_section">
+  
+    <h2 class="text-center featurette-heading" style="margin-bottom: 80px">Our Team</h2>
+ 
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Dr. Jessica Chow, MD</h2>
+          <h4 class="title">Lead Medical Advisor</h4>
+          <p>Emergency room medical doctor at UCSF hospital in San Francisco Bay, CA.</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/anthony.png" alt="Dr. Anthony Do profile image" width="140" height="140">
+          <h2>Dr. Anthony Do, PharmD</h2>
+          <h4 class="title">Co-founder &amp CEO</h4>
+          <p>Registered pharmacist and software engineer based in San Francisco Bay, CA.</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/tracy.png" alt="Tracy Pan profile image" width="140" height="140">
+          <h2>Tracy Pan</h2>
+          <h4 class="title">Co-founder &amp COO</h4>
+          <p>Business development lead with multiple years of experience in international sales based in Los Angeles, CA.</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <div class="row">
+      	<div class="col-lg-offset-2 col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Eric Heinmiller</h2>
+          <h4 class="title">Lead Software Engineer</h4>
+          <p>Full stack web developer based in San Francisco, CA.</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <h2>Hanna Kim</h2>
+          <h4 class="title">Lead Designer</h4>
+          <p>Web and mobile designer based in San Jose, CA.</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        
+      </div><!-- /.row -->
+    </div>
+    <hr class="featurette-divider">
+    <div class="container">
+    	<p class="text-center lead">Follow our progress by subscribing below.</p>
+    	<div class="row">
+    		<div class="col-md-offset-4 col-md-4">
+				<div class="input-group">
+		  			<input type="text" class="form-control" placeholder="Email">
+		   			<span class="input-group-btn">
+		        		<button class="btn btn-success" type="button">Subscribe!</button>
+		   			</span>
+				</div>
+			</div>
+		</div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="container">
+		<footer>
+	        <p class="pull-right"><a href="#">Back to top</a></p>
+	        <p>&copy; 2016 Docbot, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      	</footer>   	
+    </div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="javascripts/bootstrap.min.js"></script>
+	<script src="javascripts/main.js"></script>
+</body>
+</html>
